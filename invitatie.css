@@ -57,7 +57,7 @@ a:hover {
 /* === HEADER STYLES === */
 
 .cover{
- background: url('https://i.imgur.com/Lw7s7Mm.jpg') no-repeat center/cover;
+  background: url('assets/damian.jpg') no-repeat center/cover;
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -71,9 +71,9 @@ a:hover {
 }
 
 .text{
-  background: hsla(100,0%,0%,.5);
+  background: hsla(100,0%,0%,.3);
   color: #dedede;
-  padding: .625rem;
+  padding: 1rem;
   margin: 0 auto;
   letter-spacing: .2rem;
 }
@@ -150,10 +150,11 @@ a:hover {
   font-family: 'Muli', sans-serif;
 }
 
-.program h2 {
+.program h2, .location h2, contact h2 {
   font-family: 'Great Vibes', cursive;
   margin-top: 1rem;
   text-align: center;
+  height: 3rem;
 }
 
 .program p{
@@ -195,41 +196,41 @@ footer small {
 
 @media (min-width: 768px) {
   
-  .tagline {
+.tagline {
     text-transform: uppercase;
   }
   
-  .text h1 {
+.text h1 {
     font-size: 7rem;
   }
   
-  .text{
+.text{
     width: 70%;
     padding: 1.25rem;
     border-radius: 4px;
   }
   
 .cover{
-    background: url('https://i.imgur.com/Lw7s7Mm.jpg') no-repeat center/cover;
+    background: url('assets/damian.jpg') no-repeat center/cover;
   }
   
-  .loc {
+.loc {
     display: inline-block;
     width: 40%;
     padding: 1.5rem;
     margin: .5rem;
   }
   
-  .loc::after {
+.loc::after {
     display: none;
   }
   
-  .wrapper-program{
+.wrapper-program{
     width: 30vw;
     margin: 0 auto;
   }
   
-  footer {
+footer {
     height: 8vh;
   }
 }
